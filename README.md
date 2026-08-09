@@ -146,3 +146,7 @@ data was used.
 
 ### Personal Notes:
 From everything I have seen in this code I believe ExoEnv roblox-env.exe for version 0.3.2 to be safe. This is my own personal opinion and should not be included in your own personal decision as to whether or not this binary is malicious or not. The exact Reverse Engineering findings point to that this specific binary doesn't do anything malicious and the binary is not packed or obfuscated in any way. The import and export tables are clear and there is no evidence of import/export spoofing/fuzzing.
+
+### Additional Notes:
+Lenny (the owner of ExoEnv) states that ExoEnv utilizes a custom mlua crate, I did not decompile or reverse any of the crates that this file embeds and therefore cannot reliably confirm nor deny this statement. This is only added to give Lenny the opportunity to make his own statements regarding ExoEnv and do not reflect my analysis this is not to say I do not believe nor trust his statements, please read [Limitations](#limitations--what-this-is-not) to see why my analysis does not cover this.
+||to-do add images||
