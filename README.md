@@ -79,7 +79,7 @@ evidence is circumstantial rather than fully confirmed.
 ### Not analyzed / explicitly out of scope for this session
 
 - The actual bytecode/behavior of any Luau script the tool loads or executes.
-- Full contents and semantics of the ~18,000-line inlined `fn main()` body —
+- Full contents and semantics of the ~18,000-line inlined `fn main()` body,
   only representative sections were reviewed, not the whole function.
 - Any network traffic actually sent or received at runtime (no dynamic
   analysis or packet capture was performed).
@@ -108,7 +108,7 @@ evidence is circumstantial rather than fully confirmed.
    embedded strings, panic-location paths, and API/library signatures to
    identify third-party crates and general program structure.
 5. No breakpoints were set, the binary was not executed, and no
-   instrumentation/hooking was performed — **this was 100% static analysis.**
+   instrumentation/hooking was performed - **this was 100% static analysis.**
 
 ---
 
