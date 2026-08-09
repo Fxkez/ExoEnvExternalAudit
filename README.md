@@ -149,4 +149,6 @@ From everything I have seen in this code I believe ExoEnv roblox-env.exe for ver
 
 ### Additional Notes:
 Lenny (the owner of ExoEnv) states that ExoEnv utilizes a custom mlua crate, I did not decompile or reverse any of the crates that this file embeds and therefore cannot reliably confirm nor deny this statement. This is only added to give Lenny the opportunity to make his own statements regarding ExoEnv and do not reflect my analysis this is not to say I do not believe nor trust his statements, please read [Limitations](#limitations--what-this-is-not) to see why my analysis does not cover this.
-||to-do add images||
+![Screenshot 1](exoenvimages/ss1.png)
+![Screenshot 2](exoenvimages/ss2.png)
+![Screenshot 3](exoenvimages/ss3.png)
