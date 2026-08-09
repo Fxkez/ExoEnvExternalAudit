@@ -72,8 +72,8 @@ evidence is circumstantial rather than fully confirmed.
 - **Command-line argument parsing** is implemented as a large, heavily-inlined
   match statement (the compiler unrolled a `match arg { "--flag" => ... }`
   block into per-length XOR/SIMD string comparisons against packed 64-bit
-  constants). This is a normal, if aggressive, compiler optimization pattern —
-  **not obfuscation added by the developer** — but it made manual flag
+  constants). This is a normal, if aggressive, compiler optimization pattern,
+  **not obfuscation added by the developer**, but it made manual flag
   enumeration slow. Not all flags were decoded in this session.
 
 ### Not analyzed / explicitly out of scope for this session
